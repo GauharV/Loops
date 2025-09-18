@@ -1,1 +1,25 @@
+import java.util.Scanner;
 
+public class Shower {
+    public static Scanner scanner = new Scanner(System.in);
+
+    public static String getInput(String prompt) {
+        System.out.print(prompt);
+        return scanner.nextLine();
+    }
+
+    public static int getIntInput(String prompt) {
+        System.out.print(prompt);
+        return scanner.nextInt();
+    }
+
+    public static void main(String[] args) {
+        int stairlevel = 10;
+        for (int i=1;i<= stairlevel;i++) {
+            for(int j=1;j<=i;j++) {
+                System.out.print(j);
+            }
+            System.out.println(i);
+        }
+    }
+}
