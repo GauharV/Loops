@@ -20,7 +20,7 @@ public class Stairs {
             for(int j=i;j<levelnum;j++) {
                 System.out.print(" ");
             }
-            for(int k=1;k<=1;k++){
+            for(int k=1;k<=i;k++){
                 System.out.print(askchar);
             }
             System.out.println();
